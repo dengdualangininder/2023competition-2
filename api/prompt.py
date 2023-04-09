@@ -8,6 +8,8 @@ LANGUAGE_TABLE = {
   "en": "Hi!"
 }
 
+LANGUAGE_TABLE["zh"] = "你好！"
+
 class Prompt:
     def __init__(self):
         self.msg_list = []
